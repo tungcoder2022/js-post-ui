@@ -32,7 +32,7 @@
 
   <body>
     <!-- This is a template HTML for a post item -->
-    <template id="postItemTemplate">
+    <template id="postTemplate">
       <li class="col-12 col-md-6 col-lg-4">
         <div class="post-item mb-4">
           <div class="card">
@@ -55,7 +55,7 @@
               <p class="card-text">
                 <small class="text-muted">by</small>
                 <small data-id="author" class="text-muted font-weight-bold">
-                  Tung Nguyen
+                  Hau Nguyen
                 </small>
                 <small data-id="timeSpan" class="text-muted">
                   - 3 mins ago
@@ -156,9 +156,9 @@
         <div class="container">
           <h1 class="with-underline text-center">Latest posts</h1>
 
-          <!-- Posts list -->
-          <ul id="postsList" class="row posts-list justify-content-center">
-            <li class="col-12 col-md-6 col-lg-4">
+          <!-- Post list -->
+          <ul id="postList" class="row posts-list justify-content-center">
+            <!-- <li class="col-12 col-md-6 col-lg-4">
               <div class="post-item mb-4">
                 <div class="card">
                   <img
@@ -195,7 +195,7 @@
                   </div>
                 </div>
               </div>
-            </li>
+            </li> -->
           </ul>
 
           <!-- Posts pagination -->
@@ -232,6 +232,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
     <!-- Scripts should be placed here to prevent blocking render UI -->
-    <script type="module" src="/js/main.js"></script>
+    <script type="module" src="/js/home.js"></script>
   </body>
 </html>
